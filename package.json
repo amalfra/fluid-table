@@ -1,0 +1,35 @@
+{
+  "name": "fluid-table",
+  "version": "0.0.1",
+  "description": "A tiny library to create responsive HTML tables",
+  "main": "fluid-table.css",
+  "scripts": {
+    "build": "npm run build-sass && npm run build-min-sass",
+    "build-sass": "node-sass --output-style expanded fluid-table.sass fluid-table.css",
+    "build-min-sass": "node-sass --output-style compressed fluid-table.sass fluid-table.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalfra/fluid-table.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "table",
+    "responsive"
+  ],
+  "author": "Amal Francis <amalfra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amalfra/fluid-table/issues"
+  },
+  "homepage": "https://github.com/amalfra/fluid-table",
+  "devDependencies": {
+    "node-sass": "^3.9.3"
+  },
+  "files": [
+    "fluid-table.css",
+    "fluid-table.min.css",
+    "fluid-table.sass"
+  ]
+}
