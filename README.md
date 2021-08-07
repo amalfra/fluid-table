@@ -3,7 +3,6 @@
 A tiny library to create responsive HTML tables
 
 [![npm version](https://badge.fury.io/js/fluid-table.svg)](https://badge.fury.io/js/fluid-table)
-[![Bower version](https://badge.fury.io/bo/fluid-table.svg)](https://badge.fury.io/bo/fluid-table)
 
 ### table on large screens
 ![screenshot](https://raw.githubusercontent.com/amalfra/fluid-table/master/examples/large-screenshot.png)
