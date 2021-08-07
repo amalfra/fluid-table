@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "A tiny library to create responsive HTML tables",
   "main": "fluid-table.css",
+  "engines": {
+    "npm": ">=7.19.1",
+    "node": ">=12.22.4"
+  },
   "scripts": {
     "build": "npm run build-sass && npm run build-min-sass",
     "build-sass": "node-sass --output-style expanded fluid-table.sass fluid-table.css",
