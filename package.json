@@ -8,9 +8,7 @@
     "node": ">=12.22.4"
   },
   "scripts": {
-    "build": "npm run build-sass && npm run build-min-sass",
-    "build-sass": "node-sass --output-style expanded fluid-table.sass fluid-table.css",
-    "build-min-sass": "node-sass --output-style compressed fluid-table.sass fluid-table.min.css"
+    "build": "cleancss -o fluid-table.min.css fluid-table.css"
   },
   "repository": {
     "type": "git",
@@ -29,11 +27,10 @@
   },
   "homepage": "https://github.com/amalfra/fluid-table",
   "devDependencies": {
-    "node-sass": "^6.0.0"
+    "clean-css-cli": "^5.3.3"
   },
   "files": [
     "fluid-table.css",
-    "fluid-table.min.css",
-    "fluid-table.sass"
+    "fluid-table.min.css"
   ]
 }
