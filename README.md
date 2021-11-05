@@ -13,10 +13,7 @@ A tiny library to create responsive HTML tables
 ```sh
 npm install fluid-table
 ```
-those who use bower can do
-```sh
-bower install fluid-table
-```
+
 Or download/clone the repo.
 
 ## Usage
