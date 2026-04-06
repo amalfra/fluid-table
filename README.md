@@ -17,6 +17,12 @@ npm install fluid-table
 Or download/clone the repo.
 
 ## Usage
+
+Include css file in your code as:
+```css
+import 'fluid-table/dist/fluid-table.min.css';
+```
+
 Just apply `fluid-table` css class to your table element. Your table columns will be converted to rows in smaller displays(< 768px).
 To each td element add `data-label` attribute whose value should be the column's heading.
 
