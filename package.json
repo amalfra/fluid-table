@@ -1,6 +1,6 @@
 {
   "name": "fluid-table",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A tiny library to create responsive HTML tables",
   "main": "fluid-table.css",
   "engines": {
